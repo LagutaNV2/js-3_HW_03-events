@@ -1,0 +1,18 @@
+.character {
+  display: block;
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+}
+
+/* Скрытие гоблина по умолчанию */
+.character.invisible {
+  display: none;
+}
+
+/* Видимый гоблин */
+.character.visible {
+  display: block;
+  width: 100%;
+  height: auto;
+}
